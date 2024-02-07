@@ -1,9 +1,27 @@
-body {
-    background-color: rgb(250, 250, 250);
-}
-h1 {
-    padding-left: 10%;
+.titulo-principal {
+    padding-left: 45px;
 }
 #banner{
     width: 100%;
+    height: 400px;
+}
+.titulo-centrado {
+    text-align: center;
+}
+#principal {
+    background: #dcdbdc;
+    padding: 20px;
+}
+#compromisos{
+    padding: 30px;
+}
+ul {
+    display: inline-block;
+    width: 30%;
+    padding-right: 15%;
+    vertical-align: top;
+    font-size: 17px;
+}
+#imagen-compromisos {
+width: 600px;
 }
