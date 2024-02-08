@@ -1,6 +1,9 @@
 header {
-    background: #413b3b;
-    padding: 40px 0;
+    background: #47403c;
+    padding: 20px 0;
+}
+#logo {
+    width: 20%;
 }
 .caja {
     position: relative;
