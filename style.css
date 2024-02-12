@@ -1,5 +1,35 @@
-.titulo-principal {
-    padding-left: 45px;
+header {
+    background: #47403c;
+    padding: 20px 0;
+}
+#logo {
+    width: 20%;
+}
+.caja {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+/* evento hover */
+nav a:hover{
+    color: #d6d66e;
+    text-decoration: underline;
 }
 #banner{
     width: 100%;
@@ -15,7 +45,7 @@
 #compromisos{
     padding: 30px;
 }
-ul {
+#lista_compromisos{
     display: inline-block;
     width: 30%;
     padding-right: 15%;

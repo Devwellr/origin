@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
     <title>Primer sitio web</title>
 </head>
 <body>
     <header>
-        <h1 class="titulo-principal">PC'S DevRich</h1>
+        <div class="caja">
+            <hi><img src="../Ricardo Alvizar-logos_black.png" id="logo"></hi>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="Productos/productos.html">productos</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <img src="img/habitacion.jpg" id='banner' alt="computadora gamer de fondo">
     <div id="principal">
@@ -23,7 +32,7 @@
 
     <div id="compromisos">
         <h3 class="titulo-centrado">Compromisos</h3>
-        <ul>
+        <ul id="lista_compromisos">
             <li>Proporcionar productos de la más alta calidad, utilizando los componentes más avanzados del mercado.</li>
             <li>Ofrecer un servicio al cliente excepcional, respondiendo rápidamente a las necesidades y preguntas de nuestros clientes.</li>
             <li>Mantener la transparencia en todas nuestras operaciones, desde la selección de componentes hasta la entrega final.</li>
