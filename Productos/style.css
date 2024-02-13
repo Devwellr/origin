@@ -83,3 +83,38 @@ font-size: 25px;
 .productos li:active{
     border-color: #5ccc78;
 }
+/* estilo para contacto.html*/
+#maincontacto{
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+div label, div p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+    display: block;
+}

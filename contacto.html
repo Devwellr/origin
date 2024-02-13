@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Productos/style.css">
+    <title>Pcgamers-contacto</title>
+</head>
+<body>
+    <header>
+       <div class="caja">
+            <hi><img src="../Ricardo Alvizar-logos_black.png" id="logo"></hi>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="Productos/productos.html">productos</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="maincontacto">
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido">
+
+            <label for="correo">Correo electronico</label>
+            <input type="email" id="correo">
+
+            <label for="celular">celular</label>
+            <input type="number" id="celular">
+
+            <label for="mensaje"></label>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+        </form>
+        <div>
+            <p>¿Cómo le gustaría que lo contactemos?</p>
+        
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+        
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+        
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+
+        </div>
+        <div>
+            <p>¿En cuál horario prefiere ser atendido?</p>
+            <select>
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </div>
+        <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>
+
+        <input type="submit" value="enviar formulario">
+    </main>
+    <footer>
+        <img src="/img/logo_blanco.png">
+        <p>&copy copyright Devwellr-2024</p>
+    </footer>
+</body>
+</html>
