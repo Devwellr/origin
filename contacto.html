@@ -10,7 +10,7 @@
 <body>
     <header>
        <div class="caja">
-            <hi><img src="../Ricardo Alvizar-logos_black.png" id="logo"></hi>
+            <hi><img src="../Ricardo Alvizar-logos_black.png" id="logo" alt="logotipo de Ricardo alvizar"></hi>
             <nav>
                 <ul>
                     <li><a href="index.html">home</a></li>
@@ -23,13 +23,13 @@
     <main id="maincontacto">
         <form>
             <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" required placeholder=" Juan Perez">
 
             <label for="correo">Correo electronico</label>
-            <input type="email" id="correo">
+            <input type="email" id="correo" required placeholder="ejemplo@test.com">
 
             <label for="celular">celular</label>
-            <input type="number" id="celular">
+            <input type="number" id="celular" required placeholder="(XX) XXXX XXXX">
 
             <label for="mensaje"></label>
             <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
@@ -37,11 +37,11 @@
         <div>
             <p>¿Cómo le gustaría que lo contactemos?</p>
         
-            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" >Email</label>
         
             <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
         
-            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
 
         </div>
         <div>
@@ -52,12 +52,34 @@
                 <option>Noche</option>
             </select>
         </div>
-        <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>
+        <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de PC Dev?</label>
 
-        <input type="submit" value="enviar formulario">
+        <input type="submit" value="enviar formulario" class="enviar">
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horario</th>
+                </tr>   
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8am-8pm</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>8am-8pm</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8am-8pm</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
-        <img src="/img/logo_blanco.png">
+        <img src="/img/logo_blanco.png" alt="logotipo de Ricardo alvizar">
         <p>&copy copyright Devwellr-2024</p>
     </footer>
 </body>

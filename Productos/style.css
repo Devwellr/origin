@@ -118,3 +118,30 @@ div label, div p{
     margin: 20px 0;
     display: block;
 }
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+table {
+    margin: 40px 40px;
+}
+thead {
+background: #555555;
+color: white;
+font-weight: bold;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
