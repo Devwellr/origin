@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">    
+    <link rel="stylesheet" href="Productos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <title>Primer sitio web</title>
 </head>
 <body>
@@ -19,29 +23,36 @@
             </nav>
         </div>
     </header>
-    <img src="img/habitacion.jpg" id='banner' alt="computadora gamer de fondo">
-    <div id="principal">
-        <h2 class="titulo-centrado">PC DEV</h2>
-        <p>Nuestra Mision es:"<strong>Ofrecer soluciones de gaming excepcionales</strong>, proporcionando a 
+    <img src="img/habitacion.jpg" class='banner' alt="computadora gamer de fondo">
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">PC DEV</h2>
+            <img src="img/pc.jpg" alt="setup gamer decorado con luces" class="imagen-gamer">
+            <p>Nuestra Mision es:"<strong>Ofrecer soluciones de gaming excepcionales</strong>, proporcionando a 
             nuestros clientes productos de alta calidad y servicios personalizados.
-            Nos esforzamos por satisfacer las necesidades individuales de cada gamer, 
+            <em> esforzamos por satisfacer las necesidades individuales de cada gamer</em>, 
             superando expectativas y creando experiencias únicas en el mundo del gaming."
-        </p>
-        <p>Ofrecemos los mejores servicios de armado de pc, con tecnicos altamente capacitados a tu servicio.</p>
-    </div>
+            </p>
+            <p>Ofrecemos los mejores servicios de armado de pc, con tecnicos altamente capacitados a tu servicio.</p>
+        </section>
 
-    <div id="compromisos">
-        <h3 class="titulo-centrado">Compromisos</h3>
-        <ul id="lista_compromisos">
-            <li>Proporcionar productos de la más alta calidad, utilizando los componentes más avanzados del mercado.</li>
-            <li>Ofrecer un servicio al cliente excepcional, respondiendo rápidamente a las necesidades y preguntas de nuestros clientes.</li>
-            <li>Mantener la transparencia en todas nuestras operaciones, desde la selección de componentes hasta la entrega final.</li>
-            <li>Personalizar cada solución para satisfacer las necesidades únicas de cada cliente.</li>
-            <li>Mantenernos a la vanguardia de la tecnología y las tendencias de gaming para ofrecer las soluciones más innovadoras.</li>
-            <li>Contribuir de manera positiva a la comunidad gamer, brindando información educativa y apoyo continuo.</li>
-        </ul>
-        <img src="img/banner.jpg" alt="imgagen de cuarto gamer" id="imagen-compromisos">
-    </div>
+        <section id="compromisos">
+            <h3 class="titulo-principal">Compromisos</h3>
+            <ul id="lista_compromisos">
+                <li>Proporcionar productos de la más alta calidad, utilizando los componentes más avanzados del mercado.</li>
+                <li>Ofrecer un servicio al cliente excepcional, respondiendo rápidamente a las necesidades y preguntas de nuestros clientes.</li>
+                <li>Mantener la transparencia en todas nuestras operaciones, desde la selección de componentes hasta la entrega final.</li>
+                <li>Personalizar cada solución para satisfacer las necesidades únicas de cada cliente.</li>
+                <li>Mantenernos a la vanguardia de la tecnología y las tendencias de gaming para ofrecer las soluciones más innovadoras.</li>
+                <li>Contribuir de manera positiva a la comunidad gamer, brindando información educativa y apoyo continuo.</li>
+            </ul>
+            <img src="img/banner.jpg" alt="imgagen de cuarto gamer" class="imagen-compromisos">
+        </section>
+    </main>
+    <footer>
+        <img src="/img/logo_blanco.png" alt="logotipo de Ricardo alvizar">
+        <p>&copy copyright Devwellr-2024</p>
+    </footer>
 <script src="main.js"></script>
 </body>
 </html>

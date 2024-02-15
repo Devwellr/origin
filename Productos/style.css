@@ -1,3 +1,9 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 header {
     background: #47403c;
     padding: 20px 0;
@@ -144,4 +150,31 @@ font-weight: bold;
 td, th {
     border: 1px solid black;
     padding: 8px 15px;
+}
+/* estilo para la pagina de inicio */
+.banner {
+    width: 100%;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong {
+    font-weight:bold;
+}
+.principal em {
+    font-style: italic;
+}
+.imagen-gamer {
+    width: 220px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.imagen-compromisos {
+    width: 60%;
 }
