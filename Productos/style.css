@@ -27,7 +27,7 @@ nav li {
 }
 nav a {
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -227,4 +227,7 @@ td, th {
     width: 560px;
     margin: auto;
     padding: 2em 0 4em;
+}
+@media screen and (max-width: 480px) {
+    
 }
