@@ -228,6 +228,12 @@ td, th {
     margin: auto;
     padding: 2em 0 4em;
 }
-@media screen and (max-width: 480px) {
-    
+@media (width <= 480px) {
+    .caja h1 {
+        display: block;
+        text-align: center;
+    }
+    .caja, .principal, .contenido-mapa, .contenido-compromisos, .video {
+        width: auto;
+    }
 }
